@@ -10,7 +10,15 @@ export default function Home() {
 
       <Navbar fixed="top" bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">NatureDAO</Navbar.Brand>
+        <Navbar.Brand href="#home">
+        <img 
+        src="/GoldOre.png" 
+        width="30"
+        height="30"
+        className="d-inline-block align-top"/> 
+        {'  '} NatureDAO
+        </Navbar.Brand>
+    
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
@@ -19,7 +27,6 @@ export default function Home() {
         </Container>
       </Navbar>
 
-      
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
