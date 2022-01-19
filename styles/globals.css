@@ -1,0 +1,104 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html { 
+  background: url('../public/img.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Creating the layout of the Home page. */
+.mainWindow {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navBar {
+  position: fixed;
+  top: 0vh;
+  border-radius: 33px;
+  width: 90vw;
+  margin: 10px 5vw;
+}
+
+.innerNavbarContainer {
+  margin: 0;
+}
+
+.d-inline-block {
+  margin: 0px 10px;
+}
+
+.middleRow {
+  color: rgb(249, 249, 249);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+}
+
+.text-box {
+  color: rgb(249, 249, 249);
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  /* padding-top: vh; */
+}
+
+.text1 {
+  width: 50ch; 
+
+}
+.text2 {
+  width: 50ch;
+  text-align: right;
+}
+
+h1 {
+  font-size: 5.9vw;
+}
+
+
+
+/* Creating the layout of the Coming Soon page. */
+.mainWindow2 {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middleRow2 {
+  color: rgb(249, 249, 249);
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+
+}
